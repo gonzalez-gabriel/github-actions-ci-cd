@@ -3,6 +3,12 @@ name: Node CI
 on:
   push:
     branches: [main]
+  pull_request:
+    branches: [main]
+
+concurrency:
+  group: prefijo-ci-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   integrar-ci:
