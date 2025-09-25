@@ -33,3 +33,6 @@ jobs:
 
       - name: Correr tests
         run: pnpm test
+
+      - name: Build
+        run: pnpm build
