@@ -30,3 +30,6 @@ jobs:
 
       - name: Verificar formato
         run: pnpm lint
+
+      - name: Correr tests
+        run: pnpm test
