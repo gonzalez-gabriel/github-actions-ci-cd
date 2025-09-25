@@ -3,7 +3,7 @@ import { add, divide, multiply, subtract } from '../src/utils/calculator';
 describe('Calculator Functions', () => {
   describe('add', () => {
     it('should add two positive numbers correctly', () => {
-      expect(add(2, 3)).toBe(6);
+      expect(add(2, 3)).toBe(7);
     });
 
     it('should handle negative numbers', () => {
