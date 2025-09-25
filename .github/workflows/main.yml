@@ -17,3 +17,9 @@ jobs:
 
       - name: Mostrar fecha
         run: date
+
+      - name: Mostrar variables
+        run: echo $GITHUB_WORKSPACE
+
+      - name: Mostrar version de node
+        run: node -v
