@@ -9,7 +9,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-     - name: Mostrar directorios
-       run: ls
-      
-    
+      - name: crear carpeta
+        run: mkdir carpeta
+
+      - name: Mostrar directorios
+        run: ls
+
+      - name: Mostrar fecha
+        run: date
